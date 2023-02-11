@@ -4,19 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact K&G </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
     <body>
-        
-        <h1>Contact</h1>
-
-        <div>
-            <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+        <div class="flex">
+        <a href="home.html"><img src="Knit and Gather-04.png"  alt="Knit & Gather" height="200"></a>
         </div>
 
+        <div class="navbar">
+            <a href="home.html" class="anchor-tag-nounderline">Home</a>
+            <a href="about.html" class="anchor-tag-nounderline">About</a>
+            <a href="contact.html" class="anchor-tag-nounderline">Contact</a>
+        </div>
+
+         <!-- <h1>Contact</h1>
+        <div id="center">
         <img src="Winter.jpg" height="450" alt="winter scene"><br>
+        </div> -->
+
+        <form>
+            <h3>Contact Us</h3>
+            <label for="name-textbox">Name:</label>
+            <input type="text" name="firstName" placeholder="First Name">
+            <input type="text" name="lastName" placeholder="Last Name">
+            <label for="email-textbox">email:</label>
+            <input type="email" name="email">
+            <input type="submit" value="Submit">
+        </form>
+        <div id="center">
+        <img src="Pina.jpg" height=400 alt="house cat"><br>
+        </div>
 
         <table>
             <tr>
@@ -32,16 +50,5 @@
                 <td><a href="#">Visit our Instagram</a></td>
             </tr>
         </table>
-
-        <form>
-            <h3>Contact Us</h3>
-            <label for="name-textbox">Name</label>
-            <input type="text" name="firstName" placeholder="First Name">
-            <input type="text" name="lastName" placeholder="Last Name">
-            <label for="email-textbox">email</label>
-            <input type="email" name="email">
-            <input type="submit" value="Submit">
-        </form>
-
     </body>
 </html>
